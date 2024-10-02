@@ -1,0 +1,161 @@
+body {
+  background: linear-gradient(to bottom, #7091E6, #8697C4, #ADBBDA, #EDE8E5);
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.navbar-a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navbar-a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.navbar-a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.prof {
+  height: 700px;
+  width: 1300px;
+  margin-bottom: 300px;
+  margin-left: 200px;
+}
+
+.photo {
+  justify-content: center;
+  margin-left: 550px;
+  font-size: large;
+}
+
+#name {
+  height: 200px;
+  width: 700px;
+  text-align: justify;
+  font-weight: bold;
+  color: white;
+}
+
+.photo img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.att {
+  display: inline-block;
+  margin-left: 150px;
+}
+
+#github, #linkedin {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+#github:hover, #linkedin:hover {
+  box-shadow: 0 0 90px blueviolet;
+}
+
+#github:active, #linkedin:active {
+  box-shadow: 0 0 100px rgb(34, 33, 34);
+}
+
+#h1 {
+  margin-left: 130px;
+}
+
+.edu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 370px;
+  margin-top: 250px;
+}
+
+.edu-img {
+  padding: 10px;
+  margin: 10px 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+}
+
+.cert {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 370px;
+  margin-top: 250px;
+}
+
+.cert-img {
+  padding: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+.pro {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 280px;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  background-color: #9e949493;
+}
+
+.pro1, .pro2, .pro3, .pro4 {
+  height: 220px;
+  width: 500px;
+  padding: 10px;
+  background-color: #919191;
+  text-align: justify;
+}
+
+.pro2, .pro4 {
+  margin-left: 160px;
+}
+
+.pro3, .pro4 {
+  margin-top: 20px;
+}
+
+#h1-pro1, #h1-pro2, #h1-pro3, #h1-pro4 {
+  font-weight: bolder;
+  font-size: larger;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p-pro1, #p-pro2, #p-pro3, #p-pro4 {
+  font-weight: bold;
+  font-size: medium;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pros:hover {
+  box-sizing: border-box;
+  box-shadow: 0 0 70px rgb(28, 26, 29);
+}
